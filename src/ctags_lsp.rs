@@ -37,7 +37,7 @@ fn get_ctags_lsp_binary_url() -> Result<CtagsLspBinary, ErrorMessage> {
         (os, arch) => Err(format!("Unsupported platform: {:?} {:?}", os, arch).to_string())?,
     };
     let url = format!(
-        "https://github.com/netmute/ctags-lsp/releases/download/v0.8.1/{}",
+        "https://github.com/netmute/ctags-lsp/releases/download/v0.11.0/{}",
         tarball
     );
     println!("Downloading ctags lsp from {}", url);
