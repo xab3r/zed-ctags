@@ -8,4 +8,4 @@ repository = "https://github.com/mazurel/zed-ctags"
 
 [language_servers.ctags-lsp]
 name = "Universal Ctags LSP"
-languages = ["C", "C++", "Python", "Elixir", "Erlang"]
+languages = ["C", "C++", "Python", "Elixir", "Erlang", "Ruby", "JavaScript", "TypeScript", "Shell Script", "Zig", "Rust", "Makefile", "Bash"]
